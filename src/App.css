@@ -1,0 +1,9 @@
+.App div {
+  width: 50px; height: 50px;
+  outline: 1px solid black;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px; height: 500px;
+}
