@@ -1,0 +1,14 @@
+.board div {
+  width: 10px; height: 10px;
+  outline: 1px solid black;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 500px; height: 700px;
+}
+
+.state-1{
+  background-color: red;
+}

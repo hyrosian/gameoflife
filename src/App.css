@@ -1,13 +1,29 @@
-.App div {
-  width: 10px; height: 10px;
-  outline: 1px solid black;
-}
-.App {
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px; height: 500px;
+@font-face {
+  font-family: 'Belwe';
+  src: url('./assets/font/belwe-bold.woff') format('woff'),
+  url('./assets/font/belwe-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.state-1{
-  background-color: red;
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+html {
+  background-color: #040D16;
+  color: cadetblue;
+}
+
+.container {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header {
+  color: #00F3CB;
+  font-family: 'Belwe', monospace;
 }
